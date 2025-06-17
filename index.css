@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #026750
+
+}
+.container{
+    margin: 12%;
+    padding:100px auto 70px;
+}
+.container h1{
+    color:wheat;
+}
+.container h1 span{
+    color: rgb(105, 201, 235);
+    border-bottom: 4px solid   rgb(105, 201, 235);
+}
+.display{
+    height:50px;
+    display: flex;
+   
+}
+.display input{
+    width:250px;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left:10;
+    color:black;
+}
+.display img{
+    width:50;
+    border:none;
+    outline: none;
+}
+button{
+    display: flex;
+    margin-top: 20px;
+    width:125;
+    padding:10;
+    background-color: white;
+    font-weight: 900;
+    font-size: 18;
+    border-radius: 10px;
+    color: #026750;
+    border: none;
+    outline: none;
+}
+button img{
+    width:28px;
+    height: 28px;
+    margin-top: -4;
+    margin-left: -5
+}
